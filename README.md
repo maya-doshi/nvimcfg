@@ -13,8 +13,8 @@ External Requirements:
 - A [Nerd Font](https://www.nerdfonts.com/): optional, provides various icons
   - if you have it set `vim.g.have_nerd_font` in `init.lua` to true
 - Language Setup:
-  - If want to write Typescript, you need `npm`
-  - If want to write Golang, you will need `go`
+  - If you want to write Typescript, you need `npm`
+  - If you want to write Golang, you will need `go`
   - etc.
 
 ### Install
@@ -22,8 +22,8 @@ External Requirements:
 | OS | PATH |
 | :- | :--- |
 | Linux, MacOS | `$XDG_CONFIG_HOME/nvim`, `~/.config/nvim` |
-| Windows (cmd)| `%userprofile%\AppData\Local\nvim\` |
-| Windows (powershell)| `$env:USERPROFILE\AppData\Local\nvim\` |
+| Windows (cmd)| `%localappdata%\nvim\` |
+| Windows (powershell)| `$env:LOCALAPPDATA\nvim\` |
 
 <details><summary> Linux and Mac </summary>
 
